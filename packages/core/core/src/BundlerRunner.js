@@ -6,7 +6,7 @@ import type {Bundle as InternalBundle} from './types';
 import type Config from './Config';
 
 import nullthrows from 'nullthrows';
-import {MutableBundleGraph} from './public/BundleGraph';
+import {MutableBundleGraph, BundleGraph} from './public/BundleGraph';
 import InternalBundleGraph from './BundleGraph';
 import MainAssetGraph from './public/MainAssetGraph';
 import {Bundle, NamedBundle} from './public/Bundle';
